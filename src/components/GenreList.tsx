@@ -2,7 +2,6 @@ import {
   Avatar,
   Button,
   HStack,
-  Image,
   List,
   ListItem,
   Wrap,
@@ -33,6 +32,7 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
               <Wrap>
                 <WrapItem>
                   <Avatar
+                    borderColor={"red"}
                     name={genre.name}
                     src={getCroppedImageUrl(genre.image_background)}
                   />
