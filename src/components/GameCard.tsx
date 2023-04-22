@@ -10,7 +10,7 @@ interface Props {
 
 const GameCard = ({ game }: Props) => {
   return (
-    <Card variant={"filled"}>
+    <Card variant={"filled"} boxShadow="md">
       <Image
         borderRadius="lg"
         src={getCroppedImageUrl(game.background_image)}
