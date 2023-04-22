@@ -28,7 +28,7 @@ const useGenres = <T>(
         .then((response) => {
           setData(response.data.results);
           setLoading(false);
-          console.log(response.data.results);
+          console.log(endpoint, "->", response.data.results);
         })
         .catch((error) => {
           if (error instanceof CanceledError) return null;
