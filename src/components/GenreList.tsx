@@ -2,6 +2,7 @@ import {
   Avatar,
   Button,
   HStack,
+  Heading,
   List,
   ListItem,
   Wrap,
@@ -25,6 +26,9 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
     <>
       {isLoading &&
         skeleton.map((skeleton) => <GenresListItemSkeleton key={skeleton} />)}
+      <Heading fontSize="2xl" marginBottom={3}>
+        Genres
+      </Heading>
       <List>
         {data.map((genre) => (
           <ListItem key={genre.id} paddingY="5px">
@@ -32,6 +36,7 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
               <Wrap>
                 <WrapItem>
                   <Avatar
+                    objectFit="cover"
                     borderColor={"red"}
                     name={genre.name}
                     src={getCroppedImageUrl(genre.image_background)}
@@ -44,6 +49,8 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
                 src={getCroppedImageUrl(genre.image_background)}
               /> */}
               <Button
+                whiteSpace="normal"
+                textAlign="left"
                 fontWeight={genre.id === selectedGenre?.id ? "bold" : "normal"}
                 variant="link"
                 fontSize="lg"
