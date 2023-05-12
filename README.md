@@ -1,6 +1,6 @@
 ## Game Hub 🕹️
 <p>
-  <img alt="Github: JayManale" src="https://github.com/jaymanale/game-hub" />
+  <img alt="Github: JayManale" src="https://img.shields.io/github/last-commit/jaymanale/game-hub" />
 </p>
 
 GameHub - This is the Online game platform to know all about the games available on different platforms which can be sorted by Genre
