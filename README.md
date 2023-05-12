@@ -1,8 +1,14 @@
 ## Game Hub 🕹️
+<p>
+  <img alt="Github: JayManale" src="https://github.com/jaymanale/game-hub" />
+</p>
 
 GameHub - This is the Online game platform to know all about the games available on different platforms which can be sorted by Genre
 
 Let go to [GameHub](https://game-hub-navy-tau.vercel.app/) 👉
+
+
+![GameHub](https://github.com/jaymanale/game-hub/assets/5653906/af85eb31-9e0c-4522-a79c-9526b89d45ac)
 
 ## Library Used in Project
 
